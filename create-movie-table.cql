@@ -1,4 +1,4 @@
-create table Film ( 
+CREATE TABLE Film ( 
 	link varchar,
 	plot varchar,
 	rated decimal,
@@ -20,4 +20,4 @@ create table Film (
 	poster text,
 	imdbvotes int,
 	imdbid text primary key
-)
+);
