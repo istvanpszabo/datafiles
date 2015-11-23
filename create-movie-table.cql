@@ -1,0 +1,23 @@
+create table Film ( 
+	link varchar,
+	plot varchar,
+	rated decimal,
+	repsonse boolean,
+	language varchar,
+	title varchar,
+	country varchar,
+	writer list<text>,
+	metascore decimal,
+	imdbrating decimal,
+	director list<text>,
+	released timestamp,
+	actors list<text>,
+	year int,
+	genre list<text>,
+	awards text,
+	runtime int,
+	type text,
+	poster text,
+	imdbvotes int,
+	imdbid text primary key
+)
